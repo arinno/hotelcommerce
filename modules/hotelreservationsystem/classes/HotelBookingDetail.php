@@ -1194,7 +1194,7 @@
                 $objCustomerAddress->address1 = 'New York, US';
                 $objCustomerAddress->postcode = '10001';
                 $objCustomerAddress->city = 'New York';
-                $objCustomerAddress->phone_mobile = 0987654321;
+                $objCustomerAddress->phone_mobile = '0987654321';
                 $objCustomerAddress->save();
                 return $objCustomerAddress->id;
             }
